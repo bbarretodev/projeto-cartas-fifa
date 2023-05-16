@@ -1,0 +1,152 @@
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight:650;
+    color:rgb(254,252,202);
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+.carta{
+    position: absolute;
+}
+
+.carta img{
+    width: 170px;
+    height: 270px;
+    
+    
+}
+
+.logo{
+    width: 24px;
+    height: 20px;
+    background: transparent;
+    
+}
+
+
+.listagem-pokemon{
+    max-width:900px ;
+    max-height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    padding: block;
+    
+ }
+
+.cartao-pokemon{
+    
+    width: 170px;
+    height: 220px;
+    text-align: center;
+    align-items: center;
+    position:relative;
+    margin: 15px;
+    margin-bottom: 45px;
+    margin-right: 35px;
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+   
+    
+
+}
+
+.informaçoes span {
+    position:relative;
+    top:156px;
+
+}
+
+.gif{
+    width: 80px;
+    height: 90px;
+    position: relative;
+    top:30px;
+
+    
+}
+
+.descriçao{
+    width: 116px;
+    height:10px;
+    text-align:left;
+    padding-left: 15px;
+    font-weight:10;
+    position: relative;
+    top:55px;
+    left:14px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.habilidade img{
+    height: 20px;
+    width: 23px;
+    top: 170px;
+    right: 350px;
+    position: relative;
+}
+
+.habilidade2 p{
+    position: relative;
+    right: 350px;
+    top: 110px;
+    font-family: 'Roboto', sans-serif;
+}
+
+    
+.tipos{
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+    
+}
+
+.grama{
+    width: 49px;
+    height: 22px;
+    border: transparent;
+   
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.veneno{
+    width: 56px;
+    height: 22px;
+   
+}
+
+.fogo{
+    width: 42px;
+    height: 22px;
+ 
+}
+
+.agua{
+    width:42px;
+    height:22px;
+   
+}
+
+.inseto{
+    width: 45px;
+    height:22px;
+ 
+}
+
+.cartao-pokemon:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
